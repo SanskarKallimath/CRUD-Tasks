@@ -1,0 +1,214 @@
+.createStudent-section{
+    background-color: antiquewhite;
+ height: 700px;
+ width: 1800px;
+ margin: auto;
+ background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+ 
+}
+.first-div{
+    display: flex;
+    flex-direction: row;
+  
+}
+.back-button{
+    margin-top: 20px;
+    margin-left: 130px;
+    border-radius: 10px;
+    border: 2px solid #0b0b0b;
+   
+
+}
+.createStudent-text{
+    margin-left: 600px;
+    
+   
+}
+.second-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.Profile-icone{
+    margin-left: 130px;
+    font-size: 2rem;
+   
+}
+.personal-information-text{
+    margin-left: 10px;
+}
+.third-div{
+    justify-content: space-evenly;
+}
+.name-text{
+    width: 350px;
+    margin-left: 125px;    
+    height: 30px;        
+    padding: 10px;     
+    font-size: 16px;     
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+.email-text{
+    width: 350px;
+    margin-left: 20px;    
+    height: 30px;        
+    padding: 10px;     
+    font-size: 16px;     
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+
+}
+.mobilenumber-text{
+    width: 350px;
+    margin-left: 20px;    
+    height: 30px;        
+    padding: 10px;     
+    font-size: 16px;     
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+
+}
+.name-text::placeholder,
+.email-text::placeholder,
+.mobilenumber-text::placeholder {
+    font-size: 25px;      
+    color: #c8c0c0;  
+}
+
+.commission
+{
+  
+    margin-left: 125px;   
+    width: 350px;      
+    padding: 10px;     
+    font-size: 16px;     
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    height: 30px;
+    
+
+}
+.lotsize-limit{
+    
+
+    
+    
+    width: 350px;
+    padding: 10px;     
+    font-size: 16px;     
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    height: 30px;
+   
+}
+.fourth-div
+{
+   display: flex;
+   justify-content: end;
+   margin-right: 120px;
+   align-items: center;
+   
+}
+.divider{
+    border: 1px solid #ded4d4; /* Gray color for the line */
+    margin: 20px 0; /* Space around the line */
+    width: 100%; 
+}
+.fifth-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.second-profile-icone{
+    margin-left: 130px;
+    font-size: 2rem;
+  
+
+}
+.Broker-information{
+    margin-left: 20px;
+    
+    
+}
+.sixth-div{
+    margin-left: 200px;
+   padding-bottom: 90px;
+   height: 3px;
+   
+}
+.angelone-text {
+    position: relative;
+    display: inline-block;
+    color: #000; /* Optional: color of the text */
+    margin-right: 50px;
+  }
+  
+  .angelone-text::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; /* Adjust this value to control the gap between the text and the underline */
+    width: 100%;
+    height: 2px; /* Thickness of the underline */
+    background-color: blue; /* Color of the underline */
+  }
+  
+  .seventh-div{
+  
+    display: flex;
+    flex-direction: row;
+    
+    
+   
+  }
+  .broker-id,
+  .broker-password,
+  .broker-qr,
+  .broker-api
+  {
+    margin-left: 90px;
+    height: 47px;
+     width: 350px;
+     border: 1px solid #ccc; 
+     border-radius: 5px; 
+   
+  }
+  .broker-id::placeholder, 
+.broker-password::placeholder, 
+.broker-qr::placeholder, 
+.broker-api::placeholder {
+   
+  font-size: 25px; /* Adjust this value to make the placeholder text larger */
+  color: #c8c0c0; /* Optional: Change placeholder text color */
+}
+.save-button-div {
+    display: flex;
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px;
+  }
+  
+  .save-data-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 1600px;
+  }
+  
+  .save-data-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    
+  }
