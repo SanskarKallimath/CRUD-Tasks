@@ -24,11 +24,17 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
- 
+  padding: 0;
+  font-size: 100%; /* This can be a percentage to maintain responsiveness */
 }
+
+.container {
+  width: 100%; /* Use relative units */
+  max-width: 1200px; /* Optional max width */
+  margin: 0 auto; /* Center container */
+}
+
+
 
 h1 {
   font-size: 3.2em;

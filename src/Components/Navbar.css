@@ -95,6 +95,8 @@
  height: 600px;
  width: 1700px;
  margin: auto;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
  
 }
 .BackAndManageStudent{
@@ -111,7 +113,7 @@
     border: 2px solid #0b0b0b;
     border-radius: 10px;
     
-   
+    
 }
 
 .SearchBox{
@@ -181,7 +183,7 @@
   }
   .create-student-btn {
     padding: 10px 15px;
-    background-color: #28a745;
+    background-color: #28a745; 
     color: white;
     border: none;
     border-radius: 5px;

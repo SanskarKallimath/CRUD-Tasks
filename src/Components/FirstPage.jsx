@@ -6,7 +6,7 @@ const FirstPage = () => {
   return (
     <div>
       <Navbar/>
-      <Table/>
+      <Table/> 
     </div>
   )
 }
